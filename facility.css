@@ -1,0 +1,58 @@
+/****************Facility css start ****************/
+/* labs css start */
+.facility{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.facility h1{
+  background-color: #1c055e;
+  margin: 30px;
+  font-size: 70px;
+  text-align: center;
+  border-radius: 35px;
+
+}
+.fss{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.labs{
+  flex: 1;
+  margin-right: 40px;
+  overflow: hidden;
+}
+.labs img{
+  width: 93%;
+  border: black 5px solid;
+  border-radius: 16px;
+  margin: 5px;
+}
+.labs h2{
+  color: red;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 30px;
+  background-color:#d1b0b0;
+  border-radius: 20px;
+}
+.labs p{
+  color: #000000;
+  font-size: large;
+}
+/* labs css end */
+
+
+
+@media(max-width: 450px){    
+
+    .fss {
+      display: block;
+    }
+    .facility h1{
+        font-size: 50px;
+    }
+}
