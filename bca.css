@@ -1,0 +1,73 @@
+
+/* -----------------------COURSE START ----------------------------------------- */
+.bca{
+  text-align: center;
+  background-color: #1c055e;
+  font-size: 60px;
+  margin: 5px 5px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+.course-overview h1{
+  background-color: blue;
+  font-size: 50px;
+  text-align: center;
+  margin: 2px;
+  border: 2px solid white;
+
+}
+.course-overview p{
+  font-size: 20px;
+  margin: 7px;
+}
+/*  */
+.course-structure button a{
+  align-items: center;
+  text-decoration: none;
+}
+.course-structure button{
+  background-color:black;
+  border: none;
+  border-radius: 11px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: xx-large;
+  margin: 6px 382px;
+  cursor: pointer;
+}
+.course-structure .button3:hover{
+background-color: #2a282e;
+}
+.course-structure .button3 a:hover{
+  color: white;
+}
+/*  */
+.course-structure .brt{
+  background-color: red;
+  margin: 17px 500px;
+  text-decoration: none;
+
+}
+.course-structure .brt:hover{
+  background-color: #b95656;
+}
+.course-structure .brt a:hover{
+  color: white;
+}
+/* -----------------------COURSE END ----------------------------------------- */
+/* ----------------------- RESPOBSIBE COURSE START ----------------------------------------- */
+
+@media (max-width:800px){
+  .course-structure button{
+    margin: 5px;
+  }
+  .course-structure .brt{
+    margin: 17px 100px;
+  }
+  .bca{
+    margin-top: 28px;
+  }
+}  
